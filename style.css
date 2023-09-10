@@ -508,7 +508,6 @@ border-radius:30px;
 	.container .text.textEN{ display: block; }
 
 	/* Wedding */
-	.remove{ display: none; }
 	.wedding-img{ width: 100%;}
 
 	/* Bachelor */
@@ -535,5 +534,4 @@ border-radius:30px;
 /* For galaxy fold phones */
 @media only screen and (max-width:325px){
 	.info { width: 11rem; }
-	.remove{ display: none; }
 }
