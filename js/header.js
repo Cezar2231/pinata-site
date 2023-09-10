@@ -22,3 +22,13 @@ var body = 'name: ' + name + '<br/> email: ' + email + '<br/> phone: ' + phone +
 );
 })
 
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {
+      pageLanguage: 'en', // Set your website's default language (English in this case)
+      includedLanguages: 'el', // Target language (Greek)
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    },
+    'google_translate_element'
+  );
+}
