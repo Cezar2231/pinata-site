@@ -11,16 +11,17 @@ var phone = document.getElementById('phone').value;
 var message = document.getElementById('message').value;
 var body = 'name: ' + name + '<br/> email: ' + email + '<br/> phone: ' + phone + '<br/> message: ' + message; 
 
-  Email.send({
-  SecureToken : "",
+Email.send({
+  SecureToken : "7aef9683-a83b-4269-a214-0025887c76a8",
   To : 'koochico@gmail.com',
-  From : '',
+  From : 'sisko.10@abv.bg',
   Subject : "This is the subject",
   Body : body
 }).then(
 message => alert(message)
 );
 })
+
 
 
 
