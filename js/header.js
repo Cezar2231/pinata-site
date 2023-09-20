@@ -11,5 +11,16 @@ var phone = document.getElementById('phone').value;
 var message = document.getElementById('message').value;
 var body = 'name: ' + name + '<br/> email: ' + email + '<br/> phone: ' + phone + '<br/> message: ' + message; 
 
-    //hidden
+  Email.send({
+  SecureToken : "",
+  To : 'koochico@gmail.com',
+  From : '',
+  Subject : "This is the subject",
+  Body : body
+}).then(
+message => alert(message)
+);
+})
+
+
 
